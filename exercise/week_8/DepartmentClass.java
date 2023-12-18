@@ -10,10 +10,10 @@ public class DepartmentClass{
         ME me = new ME();
         CE ce = new CE();
 
-        cse.subjects();
-        ece.subjects();
-        me.subjects();
-        ce.subjects();
+       cse.firstYear();
+       ece.secondYear();
+       me.thirdYear();
+       ce.fourthYear();
     }
 }
 
