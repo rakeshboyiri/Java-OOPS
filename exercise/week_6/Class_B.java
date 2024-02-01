@@ -12,7 +12,7 @@ public class Class_B extends Class_A{
         System.out.println("sum = "+(num1+num2));
     }
     void sum(int num1,int num2,int num3){
-        System.out.println("sum = "+num1+num2+num3);
+        System.out.println("sum = "+(num1+num2+num3));
     }
 
     //Main Method

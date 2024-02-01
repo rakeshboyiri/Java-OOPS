@@ -5,30 +5,56 @@
   a geared and non-geared two wheeler.
 */
 
-public class VehicleType extends Two_weeler{
+public class VehicleType {
+  public String CompanyName;
+  public String CompanyType;
   
   void getType(){
-    System.out.println("Company Type ");
+    System.out.println("Company Type : "+CompanyType);
   }
   
   void getName(){
-    System.out.println("Company Name " );
+    System.out.println("Company Name : "+CompanyName );
   }
 	
 }
 
 class Geared extends VehicleType{
-  
-  void average(){
-  System.out.println("Geared Average");
+  double Average;
+  public Geared(String CompanyType,String CompanyName,double Average){
+    this.CompanyName = CompanyName;
+    this.Average = Average;
+    this.CompanyType = CompanyType;
+  }
+  public void average(){
+  System.out.println("Geared Average : "+Average);
   }
 
 }
 
 class NonGeared extends VehicleType{
 
-  void average(){
-    System.out.println("Geared Average");
+  double Average;
+  public NonGeared(String CompanyType,String CompanyName,double Average){
+    this.CompanyName = CompanyName;
+    this.Average = Average;
+    this.CompanyType = CompanyType;
+  }
+  public void average(){
+    System.out.println("Geared Average : "+Average);
   }
 
+}
+class VehicleTypeMain{
+  public static void main(String args[]){
+    Geared g = new Geared("Geared", "Tesla", 50.6);
+    NonGeared ng = new NonGeared("Non-Geared", "Tata", 60);
+    g.getName();
+    g.getType();
+    g.average();
+
+    ng.getName();
+    ng.getType();
+    ng.average();
+  }
 }
