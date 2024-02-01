@@ -13,7 +13,7 @@ public class MatrixMultiplication {
         System.out.print("Enter Second matrix , row and column size : ");
         int row2 = sc.nextInt();
         int col2 = sc.nextInt();
-        if(row1==row2 && col1==col2){
+        if(c1==r2){
             int matrix1[][] = new int[row1][col1] ;
             int matrix2[][] = new int[row2][col2] ;
             int result[][] = new int[row1][col1] ;
