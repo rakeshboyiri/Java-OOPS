@@ -15,10 +15,10 @@ public class Palindrome {
             n = n /10 ;
         }   
         if(rev == org){
-            System.out.println(org +" is Palindrom");
+            System.out.println(org +" is Palindrome");
         }
         else{
-            System.out.println(org +" is not Palindrom");
+            System.out.println(org +" is not Palindrome");
         }
 
         sc.close();

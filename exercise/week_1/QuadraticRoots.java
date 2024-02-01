@@ -26,7 +26,7 @@ public class QuadraticRoots {
              Real = -(b)/(2*a);
              Imaginary = (Math.sqrt(-(d)))/(2*a);
              System.out.println("Root 1 = "+Real+" + "+Imaginary+"i");
-             System.out.println("Root 1 = "+Real+" - "+Imaginary+"i");
+             System.out.println("Root 2 = "+Real+" - "+Imaginary+"i");
         }
         else{
              System.out.println("Real and Equal roots");
