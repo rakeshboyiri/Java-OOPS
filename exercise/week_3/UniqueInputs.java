@@ -39,6 +39,7 @@ public class UniqueInputs {
             System.out.println(List[i]);
         }
         sc.close();
+        Thread
     }
     
     }

@@ -23,45 +23,45 @@ public class Employee{
         int n = sc.nextInt();
         Employee EmpList[] = new Employee[n];
         
-       // EmpList[0] = new Employee();
         for(int i =0 ; i<n;i++){
             EmpList[i] =  new Employee();
-            System.out.println("---Enter "+(i+1)+" Employ Details---");
+            System.out.println("---Enter "+(i+1)+" Employee Details---");
 
-            System.out.print("Enter Employ Id : ");
+            System.out.print("Enter Employee Id : ");
             EmpList[i].Id=sc.nextInt();
 
-            System.out.print("Enter Employ Name : ");
+            System.out.print("Enter Employee Name : ");
             EmpList[i].Emp_name=sc.next();
 
-            System.out.print("Enter Employ Age : ");
+            System.out.print("Enter Employee Age : ");
             EmpList[i].Emp_age=sc.nextInt();
             sc.nextLine();
 
-            System.out.print("Enter Employ Gender : ");
+            System.out.print("Enter Employee Gender : ");
             EmpList[i].Emp_gender=sc.nextLine();
 
-            System.out.print("Enter Employ Salary : ");
+            System.out.print("Enter Employee Salary : ");
             EmpList[i].Emp_salary=sc.nextInt();
             sc.nextLine();
 
-            System.out.print("Enter Employ Address : ");
+            System.out.print("Enter Employee Address : ");
             EmpList[i].Emp_Address=sc.nextLine();
             
         }
-        System.out.print("Entre id to print details : ");
+        System.out.print("Enter Id to print Details : ");
         int ch = sc . nextInt();
         for(int i =0 ;i<n;i++){
             if(EmpList[i].Id == ch){
-                System.out.println("Employ Id : "+EmpList[i].Id);
-                System.out.println("Employ name : "+EmpList[i].Emp_name);
-                System.out.println("Employ Emp_age : "+EmpList[i].Emp_age);
-                System.out.println("Employ Emp_gender : "+EmpList[i].Emp_gender);
-                System.out.println("Employ Emp_salary : "+EmpList[i].Emp_salary);
-                System.out.println("Employ  : "+EmpList[i].Emp_Address);
-                break;
+                System.out.println("Employee Id : "+EmpList[i].Id);
+                System.out.println("Employee name : "+EmpList[i].Emp_name);
+                System.out.println("Employee age : "+EmpList[i].Emp_age);
+                System.out.println("Employee gender : "+EmpList[i].Emp_gender);
+                System.out.println("Employee salary : "+EmpList[i].Emp_salary);
+                System.out.println("Employee Address : "+EmpList[i].Emp_Address);
+                System.exit(0);
             }
         }
+        System.out.println("Sorry!, Employee Not found");
         
         sc.close();
     }   

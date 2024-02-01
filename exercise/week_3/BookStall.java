@@ -1,9 +1,18 @@
+/*
+  5. Implement the following case study using OOP concepts in Java.
+E-Book stall :
+Every book has Properties which includes : Book _Name, Book_Author, Book_Count ;
+Every Customer is having properties as : Customer_Id, Customer_Name,
+Customer_Address and he can buy Books from E-Book stall.
+Write a Program which will display the text book name and the remaining count of text
+books when a customer buys a text book.
+
+*/
+
 import java.util.Scanner;
 public class BookStall {
     public static void main(String... args){
         Scanner sc = new Scanner(System.in);
-        Books book = new Books();
-        Customer customer = new Customer();
         int n1,n2,i,j;
         System.out.print("Enter no. of books available in Bookstall : ");
         n1 = sc.nextInt();
@@ -76,4 +85,16 @@ public class BookStall {
             System.out.println("Invalid Customer Id");
         }
     }
+}
+
+class Customer {
+    public int customer_id;
+    public String customer_name;
+    public String customer_address;
+}
+
+class Books {
+    public String book_name;
+    public String book_author;
+    int book_count;
 }
