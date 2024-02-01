@@ -6,8 +6,8 @@ public class ImportedClass {
     //    System.out.println("Hello");
     Second second = new Second();
     second.display();
-    First first = new First();
-    first.display();
+    //First first = new First();
+    //first.display();
         
     }
 }
