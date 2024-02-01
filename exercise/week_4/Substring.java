@@ -13,7 +13,7 @@ public class Substring {
         System.out.println(str.startsWith(prefix));
         System.out.print("Enter the suffix of the string : ");
         String suffix = sc.nextLine();
-        System.out.println(str.startsWith(suffix));
+        System.out.println(str.endsWith(suffix));
         System.out.print("Enter the starting and ending indexs :  ");
         int start = sc.nextInt();
         int end = sc.nextInt();

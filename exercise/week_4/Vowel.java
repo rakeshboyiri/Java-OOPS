@@ -1,6 +1,6 @@
 /*
  * 5. Write a Java program to print all vowels in given string and count number of vowels and
-    consonants present in given string
+    consonants present in given string 
  */
 
 import java.util.Scanner;
@@ -27,3 +27,5 @@ public class Vowel {
         sc.close();
     }
 }
+
+

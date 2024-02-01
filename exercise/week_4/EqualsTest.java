@@ -1,8 +1,7 @@
 /*
  * 2. Write an application that uses String method equals and equalsIgnoreCase to tests
  * any two string objects for equality.
- * 
- */
+ * */
 
 
 import java.util.Scanner;
@@ -17,7 +16,7 @@ public class EqualsTest {
         System.out.println(str1.equals(str2)+" by equals method");
         System.out.println(str1.equalsIgnoreCase(str2)+" by eqals Ingore case method ");
 
-        sc.close();
+        sc.close()
         
     }
 }

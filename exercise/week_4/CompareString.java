@@ -4,25 +4,32 @@
  *  defined by the user.
  */
 
-import java.util.Scanner;
-public class CompareString {
-    public static void main(String... args){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the first String : ");
-        String str1 = sc.nextLine();
-        System.out.print("Enter the second string : ");
-        String str2 = sc.nextLine();
-        if(str1.compareTo(str2)==0){
-        System.out.println(str1+" and "+str2+" are equal");
-        }
-        else if(str1.compareTo(str2)>0){
-            System.out.println(str1+" is greater than "+str2);
-        }
-        else{
-            System.out.println(str2+" is greater than "+str1);
-        }
-
-        sc.close();
-    }
-    
-}
+ import java.util.Scanner;
+ public class CompareString{
+     public static void main(String args[]){
+         Scanner sc = new Scanner(System.in);
+         System.out.print("Enter first string : ");
+         String str1 = sc.nextLine();
+         System.out.print("Enter the second string : ");
+         String str2 = sc.nextLine();
+         CompareString cp = new CompareString();
+        System.out.println("By user defined function : "+ cp.compare(str1, str2));
+        System.out.println("By string handling function :"+str1.compareTo(str2));
+         
+     }
+ 
+     public int compare(String str1,String str2){
+         int i =0 , j = 0 ;
+         while(i<str1.length() && j <str2.length()){
+             if(str1.charAt(i)>str2.charAt(j)){
+                 return str1.charAt(i)-str2.charAt(j);
+             }
+             if(str1.charAt(i)<str2.charAt(j)){
+                return str1.charAt(i)-str2.charAt(j);
+             }
+             i++;
+             j++;
+         }
+         return str1.length()-str2.length();
+     }
+ }
