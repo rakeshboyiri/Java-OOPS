@@ -21,7 +21,6 @@ class Bus implements Fare{
 }
 
 class Train implements Fare{
-
    
     int amount ;
     public Train(int amount){
@@ -30,8 +29,7 @@ class Train implements Fare{
     @Override
     public void getAmount() {
         System.out.println("Fair paid by train = "+amount);
-    }
-    
+    }    
 }
 class FareBusTrain{
     public static void main(String args[]){

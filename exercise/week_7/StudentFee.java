@@ -29,34 +29,27 @@ class Hostler implements StudentFee{
     }
 
     @Override
-    public void getAddress() {
-        System.out.println("Address : "+address);
-        
+    public void getAddress() { 
+        System.out.println("Address : "+address);        
     }
-
     @Override
     public void getAmount() {
         System.out.println("Amount : "+amount);        
     }
-
     @Override
     public void getContact() {
-        System.out.println("Contact : "+contact);
-        
+        System.out.println("Contact : "+contact);        
     }
-
     @Override
     public void getFirstName() {
         System.out.println("First name : "+firstName);
         
     }
-
     @Override
     public void getLastName() {
         System.out.println("Last name : "+lastName);
         
     }
-
 }
 
 class NonHostler implements StudentFee{
@@ -145,13 +138,6 @@ class Student{
         nonhostler.getLastName();
         nonhostler.getContact();
         nonhostler.getAddress();
-        nonhostler.getAmount();
-
-        
-        
-        
-        
-        
-        
+        nonhostler.getAmount();        
     }
 }

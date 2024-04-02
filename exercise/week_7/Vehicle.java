@@ -28,7 +28,7 @@ class TwoWheeler implements Vehicle{
         System.out.println("Color = "+color);    
     }
 
-    @Override
+    @Override 
     public void getNumber() {
         System.out.println("Number = "+number);
     }

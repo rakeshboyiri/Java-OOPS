@@ -18,7 +18,7 @@ class HourlyEmployee extends Employee{
         this.total_hours = total_hours;
     }
     public void getAmount(){
-        System.out.println("Amount = ");
+        System.out.println("Amount = **** ");
     }
 }
 
@@ -30,7 +30,7 @@ class WeeklyEmployee extends Employee{
         this.total_hours = total_hours;
     }
     public void getAmount(){
-        System.out.println("Amount = ");
+        System.out.println("Amount = ****");
     }
 }
 //Main
@@ -43,7 +43,7 @@ class EmployeeAmount{
         he.getAmount();
 
         System.out.print("Enter weeks and no of weeks of WeeklyEmployee : ");
-        HourlyEmployee we = new HourlyEmployee(sc.nextInt(), sc.nextInt());
+        WeeklyEmployee we = new WeeklyEmployee(sc.nextInt(), sc.nextInt());
         we.getAmount();
 
     }
