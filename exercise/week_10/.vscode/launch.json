@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DateSelector",
+            "request": "launch",
+            "mainClass": "DateSelector",
+            "projectName": "week_10_5e4a49f1"
+        },
+        {
+            "type": "java",
+            "name": "Defaultdate",
+            "request": "launch",
+            "mainClass": "Defaultdate",
+            "projectName": "week_10_5e4a49f1"
+        },
+        {
+            "type": "java",
+            "name": "Students",
+            "request": "launch",
+            "mainClass": "Students",
+            "projectName": "week_10_5e4a49f1"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "week_10_5e4a49f1"
+        }
+    ]
+}

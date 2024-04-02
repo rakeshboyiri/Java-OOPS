@@ -1,0 +1,4 @@
+/*
+    .Create a GUI with title STUDENT which has labels roll no., name, course, gender, class,
+address with textboxes for taking input from the user(without any functionality) and checkboxes
+for selecting the course, radio buttons for selecting gender with appropriate background color. 
