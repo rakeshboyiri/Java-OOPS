@@ -2,10 +2,10 @@
  * Chid class for method overloading
  */
 
-public class Class_B extends Class_A{
+public class MethodOverLoadingAndOverriding extends Class_A{
     //here display is overrided
     void display(){
-        System.out.println("Im in Class B");
+        System.out.println("Im in class MethodOverLoadingAndOverriding");
     }
     //Method Overloading
     void sum(int num1,int num2){
@@ -17,7 +17,7 @@ public class Class_B extends Class_A{
 
     //Main Method
     public static void main(String args[]){
-        Class_B b = new Class_B();
+        MethodOverLoadingAndOverriding b = new MethodOverLoadingAndOverriding();
         b.display();
         b.sum(10,20);
         b.sum(10,20,30);

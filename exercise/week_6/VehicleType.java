@@ -41,7 +41,7 @@ class NonGeared extends VehicleType{
     this.CompanyType = CompanyType;
   }
   public void average(){
-    System.out.println("Geared Average : "+Average);
+    System.out.println("NonGeared Average : "+Average);
   }
 
 }
