@@ -27,7 +27,4 @@ public class CE {
         System.out.println("2Foundation\n");
         
     }
-    public static void main(String args[]){
-
-    }
 }

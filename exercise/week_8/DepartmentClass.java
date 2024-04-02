@@ -1,7 +1,5 @@
-import dept.CSE;
-import dept.ECE;
-import dept.ME;
-import dept.CE;
+package Department;
+import dept.*;
 
 public class DepartmentClass{
     public static void main(String args[]){
@@ -11,9 +9,9 @@ public class DepartmentClass{
         CE ce = new CE();
 
        cse.firstYear();
-       ece.secondYear();
-       me.thirdYear();
-       ce.fourthYear();
+       ece.firstYear();
+       me.firstYear();
+       ce.firstYear();
     }
 }
 

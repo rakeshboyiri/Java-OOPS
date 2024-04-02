@@ -3,11 +3,8 @@
  *  in as     classes in a Package Calculator” and import in to main class.
  */
 
-
-import calculator.Addition;
-import calculator.Substraction;
-import calculator.Multiplication;
-import calculator.Division;
+package CalculatorPack;
+import calculator.*;
 
 import java.util.Scanner;
 public class CalculatorOperations {

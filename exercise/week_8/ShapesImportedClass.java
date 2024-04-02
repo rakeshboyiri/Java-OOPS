@@ -1,8 +1,5 @@
-import javax.sound.midi.Track;
-
-import org.Shapes.Circle;
-import org.Shapes.Square;
-import org.Shapes.Triangle;
+package Shapes;
+import org.Shapes.*;
 public class ShapesImportedClass {
     public static void main(String args[]){
         Circle c = new Circle();
