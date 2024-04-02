@@ -17,8 +17,8 @@ public class Wrapper {
         double val3 = 30.0d;
 
         String str1 = Integer.toString(val1);
-        String str2 = Integer.toString(val1);
-        String str3 = Integer.toString(val1);
+        String str2 = Float.toString(val2);
+        String str3 = Double.toString(val3);
 
         System.out.println(str1);
         System.out.println(str2);

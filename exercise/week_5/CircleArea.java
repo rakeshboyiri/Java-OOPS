@@ -7,8 +7,8 @@
 import java.util.Scanner;
 public class CircleArea {
 
-    int radius ;
-    public CircleArea(int radius){
+    double radius ;
+    public CircleArea(double radius){
         this.radius = radius;
     }
 
@@ -23,7 +23,7 @@ public class CircleArea {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter radius of the circle : ");
-        int radius = sc.nextInt();
+        double radius = sc.nextDouble();  
         CircleArea circle = new CircleArea(radius);
         circle.circleArea();
         circle.circlePerimeter();
